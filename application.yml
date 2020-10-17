@@ -3,10 +3,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/api/payment
-  order-service:
-    endpoints:
-      endpoint:
-        uri: http://ORDER-SERVICE/api/order
+#   order-service:
+#     endpoints:
+#       endpoint:
+#         uri: http://ORDER-SERVICE/api/order
 
 
 eureka:
